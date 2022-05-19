@@ -1,0 +1,47 @@
+/* TAG SELECTORS IN CSS */
+
+
+body{background-color: #EAF6F6;}
+
+hr{background-color: #EAF6F6;
+border-style: none;
+border-top-style: dotted;
+border-color: grey;
+border-width: 6px;
+width:7%;}
+
+h1{color: #2155CD;}
+
+h3{color: #66BFBF;}
+
+img:hover{
+  background-color: gold;
+}
+
+input:hover, input:focus {
+ background-color: #FEFF7F;
+ border: 2px solid #FF0000;
+ color:blue;
+}
+
+textarea:hover, textarea:focus{
+  background-color: #FEFF7F;
+  border: 2px solid #FF0000;
+  color:blue;
+}
+/* CLASS SELECTOS IN CSS*/
+
+.under{background-color: #66BFBF;}
+.profile{background-color: #EAF6F6;}
+.circular{ border-radius: 100%;}
+.quote{border-radius: 100%;}
+
+
+/* ID SELECTORS IN CSS*/
+
+#myname{color: black;}
+#submit{
+  background-color: #66BFBF;
+  border:1px solid blue;
+  color:black;
+}
